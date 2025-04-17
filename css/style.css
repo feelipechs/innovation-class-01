@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Nunito Sans",
+sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings: "wdth" 100,
+"YTLC" 500; */
+* {
+    font-family: "Nunito Sans";
+}
+
+.navbar-nav .nav-item .dropdown-toggle::after {
+    display: none;
+}
+
+#ver-mais {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    border: none;
+}
+
+.carousel-inner h5 {
+    background-color: #00264E;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    max-width: fit-content;
+}
+
+.valor {
+    text-decoration: line-through;
+}
+
+.off10 {
+    background-color: #5EC0BE;
+    color: white;
+    font-size: small;
+    max-width: fit-content;
+    border-radius: 10%;
+}
+
+.div02 {
+    flex: 1;
+}
+
+#div03 {
+    flex: 1;
+}
